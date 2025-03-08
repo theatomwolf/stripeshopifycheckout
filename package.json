@@ -1,0 +1,18 @@
+{
+  "name": "swissbotanics-app",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^7.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "stripe": "^14.7.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
